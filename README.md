@@ -1,7 +1,7 @@
 # Flood Risk Prediction System 🌊
 
 ## Overview  
-This project is a comprehensive AI and Machine Learning-based application for predicting flood risks in specific regions (**Mostar**, **Jablanica**, and **Fojnica**). By utilizing historical and real-time weather data, the system evaluates potential flood risks and offers valuable insights.  
+This project is a comprehensive AI and Machine Learning-based application for predicting flood risks in specific regions (**Dakshina Kannada**). By utilizing historical and real-time weather data, the system evaluates potential flood risks and offers valuable insights.  
 
 ---
 
@@ -28,7 +28,7 @@ This project is a comprehensive AI and Machine Learning-based application for pr
 ### 3. Interactive GUI  
 - Developed using **Tkinter**.  
 - **Features:**  
-  - Select a city (**Mostar**, **Jablanica**, or **Fojnica**).  
+  - Select a city (**Dakshina Kannada**).  
   - Predict flood risks for up to 10 days ahead.  
   - Displays results in a user-friendly, tabular format.  
 
@@ -90,11 +90,11 @@ cd flood_prediction
 ├── backend
 │   ├── data
 │   │   ├── fetch_data.py
-│   │   ├── fojnica_weather.csv
-│   │   ├── jablanica_weather.csv
-│   │   ├── merged_data.py
+│   │   ├── Dakshina Kannada.csv
 │   │   ├── merged_flood_data.csv
-│   │   └── mostar_weather.csv
+│   │   └── merged_data.py
+│   │   
+│   │   
 │   ├── model
 │   │   └── flood_prediction_model.pkl
 │   ├── app.py
